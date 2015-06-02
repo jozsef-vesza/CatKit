@@ -1,0 +1,11 @@
+osx_image: beta-xcode6.3
+
+language: objective-c
+
+before_install:
+- brew update
+- if brew outdated | grep -qx xctool; then brew upgrade xctool; fi
+
+script:
+- xcodebuild clean build test -workspace CatKitExample.xcworkspace -scheme CatKitExample -sdk iphonesimulator8.3 ONLY_ACTIVE_ARCH=NO
+- xctool clean build test -project CatKit.xcodeproj -scheme CatKit -sdk iphonesimulator8.3 ONLY_ACTIVE_ARCH=NO
