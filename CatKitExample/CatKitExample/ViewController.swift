@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         
         super.viewDidLoad()
         
-        CatFetcherService.fetchCatsOfWidth(400, height: 200,
+        CatFetcherService.fetchCatsOfWidth(1000, height: 800,
             fromSource: .PlaceKitten) { image, error in
                 
                 self.activityIndicator.stopAnimating()
