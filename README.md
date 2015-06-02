@@ -11,9 +11,21 @@ An iOS framework for downloading placeholder cat images.
 Cat sources:
 
 * [placeKitten][2] (already implemented)
-* [/r/aww][3] (WIP)
+* [/r/aww][3] (Work in progress)
 
-### How to use it?
+### Installation
+
+#### Carthage
+
+````bash
+github "jozsef-vesza/CatKit"
+````
+
+#### CocoaPods
+
+Work in progress.
+
+### Usage
 
 ```swift
 CatFetcherService.fetchCatsOfWidth(1000, height: 800, fromSource: .PlaceKitten) { image, error in
