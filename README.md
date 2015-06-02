@@ -6,12 +6,7 @@
 
 ### What is it?
 
-An iOS framework for downloading placeholder cat images.
-
-Cat sources:
-
-* [placeKitten][2] (already implemented)
-* [/r/aww][3] (Work in progress)
+An iOS framework for downloading placeholder cat images from [placeKitten][2].
 
 ### Installation
 
@@ -44,7 +39,6 @@ CatFetcherService.fetchCatsOfWidth(1000, height: 800, fromSource: .PlaceKitten) 
 
 [1]: http://i.imgur.com/IP4j2Zt.png
 [2]: http://placekitten.com
-[3]: http://www.reddit.com/r/aww/
 [4]: https://twitter.com/j_vesza
 [5]: https://twitter.com/tomzorz_
 [mitLink]:http://opensource.org/licenses/MIT
