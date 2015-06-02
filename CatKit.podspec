@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
    s.name = 'CatKit'
-   s.version = '1.0'
+   s.version = '1.0.2'
    s.license = 'MIT'
 
    s.summary = 'An iOS framework for downloading placeholder cat images.'
