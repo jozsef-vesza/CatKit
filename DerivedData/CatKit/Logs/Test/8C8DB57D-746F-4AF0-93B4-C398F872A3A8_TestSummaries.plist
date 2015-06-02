@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FormatVersion</key>
+	<string>1.2</string>
+	<key>RunDestination</key>
+	<dict>
+		<key>LocalComputer</key>
+		<dict>
+			<key>BusSpeedInMHz</key>
+			<integer>100</integer>
+			<key>CPUCount</key>
+			<integer>1</integer>
+			<key>CPUKind</key>
+			<string>Intel Core i5</string>
+			<key>CPUSpeedInMHz</key>
+			<integer>2500</integer>
+			<key>Identifier</key>
+			<string>26B823A2-ABD0-51E7-9DCF-F4CC68CCA304</string>
+			<key>IsConcreteDevice</key>
+			<true/>
+			<key>LogicalCPUCoresPerPackage</key>
+			<integer>4</integer>
+			<key>ModelCode</key>
+			<string>MacBookPro9,2</string>
+			<key>ModelName</key>
+			<string>MacBook Pro</string>
+			<key>ModelUTI</key>
+			<string>com.apple.macbookpro-13-unibody</string>
+			<key>Name</key>
+			<string>My Mac</string>
+			<key>NativeArchitecture</key>
+			<string>x86_64</string>
+			<key>OperatingSystemVersion</key>
+			<string>10.10.3</string>
+			<key>OperatingSystemVersionWithBuildNumber</key>
+			<string>10.10.3 (14D136)</string>
+			<key>PhysicalCPUCoresPerPackage</key>
+			<integer>2</integer>
+			<key>Platform</key>
+			<dict>
+				<key>Identifier</key>
+				<string>com.apple.platform.macosx</string>
+				<key>Name</key>
+				<string>OS X</string>
+			</dict>
+			<key>RAMSizeInMegabytes</key>
+			<integer>8192</integer>
+		</dict>
+		<key>Name</key>
+		<string>iPhone 6</string>
+		<key>TargetArchitecture</key>
+		<string>x86_64</string>
+		<key>TargetDevice</key>
+		<dict>
+			<key>Identifier</key>
+			<string>CE570F85-2F0D-4B0B-BD87-9306FCA359D2</string>
+			<key>IsConcreteDevice</key>
+			<true/>
+			<key>ModelCode</key>
+			<string>iPhone7,2</string>
+			<key>ModelName</key>
+			<string>iPhone 6</string>
+			<key>ModelUTI</key>
+			<string>com.apple.iphone-6-b4b5b9</string>
+			<key>Name</key>
+			<string>iPhone 6</string>
+			<key>NativeArchitecture</key>
+			<string>x86_64</string>
+			<key>OperatingSystemVersion</key>
+			<string>8.3</string>
+			<key>OperatingSystemVersionWithBuildNumber</key>
+			<string>8.3 (12F69)</string>
+			<key>Platform</key>
+			<dict>
+				<key>Identifier</key>
+				<string>com.apple.platform.iphonesimulator</string>
+				<key>Name</key>
+				<string>iOS Simulator</string>
+			</dict>
+		</dict>
+		<key>TargetSDK</key>
+		<dict>
+			<key>Identifier</key>
+			<string>iphonesimulator8.3</string>
+			<key>IsInternal</key>
+			<false/>
+			<key>Name</key>
+			<string>Simulator - iOS 8.3</string>
+			<key>OperatingSystemVersion</key>
+			<string>8.3</string>
+		</dict>
+	</dict>
+	<key>TestableSummaries</key>
+	<array>
+		<dict>
+			<key>ProjectPath</key>
+			<string>CatKit.xcodeproj</string>
+			<key>TargetName</key>
+			<string>CatKitTests</string>
+			<key>TestName</key>
+			<string>CatKitTests</string>
+			<key>TestObjectClass</key>
+			<string>IDESchemeActionTestableSummary</string>
+			<key>Tests</key>
+			<array>
+				<dict>
+					<key>Subtests</key>
+					<array>
+						<dict>
+							<key>Subtests</key>
+							<array>
+								<dict>
+									<key>Subtests</key>
+									<array>
+										<dict>
+											<key>TestIdentifier</key>
+											<string>CatFetcherSpec/cat_fetcher_service__should_download_images_of_cats()</string>
+											<key>TestName</key>
+											<string>cat_fetcher_service__should_download_images_of_cats()</string>
+											<key>TestObjectClass</key>
+											<string>IDESchemeActionTestSummary</string>
+											<key>TestStatus</key>
+											<string>Success</string>
+											<key>TestSummaryGUID</key>
+											<string>8B140216-A1B4-485D-B611-DC51DD97B38A</string>
+										</dict>
+										<dict>
+											<key>TestIdentifier</key>
+											<string>CatFetcherSpec/cat_fetcher_service__should_respect_the_given_dimensions()</string>
+											<key>TestName</key>
+											<string>cat_fetcher_service__should_respect_the_given_dimensions()</string>
+											<key>TestObjectClass</key>
+											<string>IDESchemeActionTestSummary</string>
+											<key>TestStatus</key>
+											<string>Success</string>
+											<key>TestSummaryGUID</key>
+											<string>1EA4E50A-1AAE-4ACD-A96B-414FBB6562D9</string>
+										</dict>
+									</array>
+									<key>TestIdentifier</key>
+									<string>CatFetcherSpec</string>
+									<key>TestName</key>
+									<string>CatFetcherSpec</string>
+									<key>TestObjectClass</key>
+									<string>IDESchemeActionTestSummaryGroup</string>
+								</dict>
+							</array>
+							<key>TestIdentifier</key>
+							<string>CatKitTests.xctest</string>
+							<key>TestName</key>
+							<string>CatKitTests.xctest</string>
+							<key>TestObjectClass</key>
+							<string>IDESchemeActionTestSummaryGroup</string>
+						</dict>
+						<dict>
+							<key>Subtests</key>
+							<array/>
+							<key>TestIdentifier</key>
+							<string>framework</string>
+							<key>TestName</key>
+							<string>framework</string>
+							<key>TestObjectClass</key>
+							<string>IDESchemeActionTestSummaryGroup</string>
+						</dict>
+					</array>
+					<key>TestIdentifier</key>
+					<string>All tests</string>
+					<key>TestName</key>
+					<string>All tests</string>
+					<key>TestObjectClass</key>
+					<string>IDESchemeActionTestSummaryGroup</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

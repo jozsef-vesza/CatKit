@@ -1,0 +1,4 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
+options: "22920c5627feac0ad0af3621a3d44a44"
+inputs: 
+- "/Users/jozvesza/Projects/Misc/CatKit/CatKitExample/CatKitExampleTests/CatKitExampleTests.swift"

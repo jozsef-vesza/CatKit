@@ -1,0 +1,5 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
+options: "e113da3f067c4e67dd36e87b67a5026f"
+inputs: 
+- "/Users/jozvesza/Projects/Misc/CatKit/CatKit/CatFetcherService.swift"
+- "/Users/jozvesza/Projects/Misc/CatKit/CatKit/CatSource.swift"

@@ -9,7 +9,13 @@
 /* Begin PBXBuildFile section */
 		04D9C5B31B1DA66300888F3C /* CatKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 04D9C5B21B1DA66300888F3C /* CatKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04D9C5B91B1DA66300888F3C /* CatKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D9C5AD1B1DA66300888F3C /* CatKit.framework */; };
-		04D9C5C01B1DA66300888F3C /* CatKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D9C5BF1B1DA66300888F3C /* CatKitTests.swift */; };
+		04D9C5CC1B1DA6EA00888F3C /* CatFetcherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D9C5CB1B1DA6EA00888F3C /* CatFetcherService.swift */; };
+		04D9C5CE1B1DA7BC00888F3C /* CatSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D9C5CD1B1DA7BC00888F3C /* CatSource.swift */; };
+		04F30AC01B1DB47000A31041 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 04F30ABE1B1DB47000A31041 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		04F30AC11B1DB47000A31041 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 04F30ABF1B1DB47000A31041 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		04F30AC21B1DB47D00A31041 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F30ABE1B1DB47000A31041 /* Nimble.framework */; };
+		04F30AC31B1DB47D00A31041 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F30ABF1B1DB47000A31041 /* Quick.framework */; };
+		04F30AC51B1DB4A200A31041 /* CatFetcherSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F30AC41B1DB4A200A31041 /* CatFetcherSpec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,13 +28,31 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		042A3C061B1DB3C80035DA15 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				04F30AC01B1DB47000A31041 /* Nimble.framework in CopyFiles */,
+				04F30AC11B1DB47000A31041 /* Quick.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		04D9C5AD1B1DA66300888F3C /* CatKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CatKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D9C5B11B1DA66300888F3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04D9C5B21B1DA66300888F3C /* CatKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CatKit.h; sourceTree = "<group>"; };
 		04D9C5B81B1DA66300888F3C /* CatKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D9C5BE1B1DA66300888F3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04D9C5BF1B1DA66300888F3C /* CatKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatKitTests.swift; sourceTree = "<group>"; };
+		04D9C5CB1B1DA6EA00888F3C /* CatFetcherService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatFetcherService.swift; sourceTree = "<group>"; };
+		04D9C5CD1B1DA7BC00888F3C /* CatSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatSource.swift; sourceTree = "<group>"; };
+		04F30ABE1B1DB47000A31041 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		04F30ABF1B1DB47000A31041 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		04F30AC41B1DB4A200A31041 /* CatFetcherSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatFetcherSpec.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,17 +68,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				04D9C5B91B1DA66300888F3C /* CatKit.framework in Frameworks */,
+				04F30AC21B1DB47D00A31041 /* Nimble.framework in Frameworks */,
+				04F30AC31B1DB47D00A31041 /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		042A3C131B1DB40F0035DA15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04F30ABE1B1DB47000A31041 /* Nimble.framework */,
+				04F30ABF1B1DB47000A31041 /* Quick.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		04D9C5A31B1DA66200888F3C = {
 			isa = PBXGroup;
 			children = (
 				04D9C5AF1B1DA66300888F3C /* CatKit */,
 				04D9C5BC1B1DA66300888F3C /* CatKitTests */,
+				042A3C131B1DB40F0035DA15 /* Frameworks */,
 				04D9C5AE1B1DA66300888F3C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,7 +108,9 @@
 			isa = PBXGroup;
 			children = (
 				04D9C5B21B1DA66300888F3C /* CatKit.h */,
+				04D9C5CB1B1DA6EA00888F3C /* CatFetcherService.swift */,
 				04D9C5B01B1DA66300888F3C /* Supporting Files */,
+				04D9C5CD1B1DA7BC00888F3C /* CatSource.swift */,
 			);
 			path = CatKit;
 			sourceTree = "<group>";
@@ -88,8 +126,8 @@
 		04D9C5BC1B1DA66300888F3C /* CatKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				04D9C5BF1B1DA66300888F3C /* CatKitTests.swift */,
 				04D9C5BD1B1DA66300888F3C /* Supporting Files */,
+				04F30AC41B1DB4A200A31041 /* CatFetcherSpec.swift */,
 			);
 			path = CatKitTests;
 			sourceTree = "<group>";
@@ -141,6 +179,7 @@
 				04D9C5B41B1DA66300888F3C /* Sources */,
 				04D9C5B51B1DA66300888F3C /* Frameworks */,
 				04D9C5B61B1DA66300888F3C /* Resources */,
+				042A3C061B1DB3C80035DA15 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -209,6 +248,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D9C5CC1B1DA6EA00888F3C /* CatFetcherService.swift in Sources */,
+				04D9C5CE1B1DA7BC00888F3C /* CatSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04D9C5C01B1DA66300888F3C /* CatKitTests.swift in Sources */,
+				04F30AC51B1DB4A200A31041 /* CatFetcherSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +364,7 @@
 		04D9C5C41B1DA66300888F3C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -332,12 +374,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		04D9C5C51B1DA66300888F3C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -353,9 +397,11 @@
 		04D9C5C71B1DA66300888F3C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -364,15 +410,18 @@
 				INFOPLIST_FILE = CatKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		04D9C5C81B1DA66300888F3C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = CatKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -399,6 +448,7 @@
 				04D9C5C51B1DA66300888F3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04D9C5C61B1DA66300888F3C /* Build configuration list for PBXNativeTarget "CatKitTests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +457,7 @@
 				04D9C5C81B1DA66300888F3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

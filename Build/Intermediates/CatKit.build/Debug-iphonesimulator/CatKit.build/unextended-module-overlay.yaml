@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/jozvesza/Projects/Misc/CatKit/Build/Products/Debug-iphonesimulator/CatKit.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/jozvesza/Projects/Misc/CatKit/Build/Intermediates/CatKit.build/Debug-iphonesimulator/CatKit.build/unextended-module.modulemap',
+    }]
+  }]
+}

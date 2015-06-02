@@ -1,0 +1,5 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
+options: "18cd981979442d600cd63fd6c1b0a282"
+inputs: 
+- "/Users/jozvesza/Projects/Misc/CatKit/CatKitExample/CatKitExample/ViewController.swift"
+- "/Users/jozvesza/Projects/Misc/CatKit/CatKitExample/CatKitExample/AppDelegate.swift"

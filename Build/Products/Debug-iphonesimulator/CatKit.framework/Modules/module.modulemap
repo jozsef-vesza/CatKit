@@ -1,0 +1,10 @@
+framework module CatKit {
+  umbrella header "CatKit.h"
+
+  export *
+  module * { export * }
+}
+
+module CatKit.Swift {
+    header "CatKit-Swift.h"
+}

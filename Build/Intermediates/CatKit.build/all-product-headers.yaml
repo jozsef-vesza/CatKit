@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/jozvesza/Projects/Misc/CatKit/Build/Products/Debug-iphonesimulator/CatKit.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "CatKit-Swift.h",
+          'external-contents': "/Users/jozvesza/Projects/Misc/CatKit/Build/Products/Debug-iphonesimulator/CatKit.framework/Headers/CatKit-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "CatKit.h",
+          'external-contents': "/Users/jozvesza/Projects/Misc/CatKit/CatKit/CatKit.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/jozvesza/Projects/Misc/CatKit/Build/Products/Debug-iphonesimulator/CatKit.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/jozvesza/Projects/Misc/CatKit/Build/Intermediates/CatKit.build/Debug-iphonesimulator/CatKit.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
