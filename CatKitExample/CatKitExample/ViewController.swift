@@ -18,20 +18,25 @@ class ViewController: UIViewController {
         
         super.viewDidLoad()
         
-        CatFetcherService.fetchCatsOfWidth(1000, height: 800,
+        CatFetcherService.fetchCatsOfWidth(300, height: 200,
             fromSource: .PlaceKitten) { image, error in
                 
-                self.activityIndicator.stopAnimating()
+                NSOperationQueue.mainQueue().addOperationWithBlock {
+                    self.activityIndicator.stopAnimating()
+                }
                 
                 switch (image, error) {
                     
                 case (nil, let error):
                     
                     let alertController = UIAlertController(title: "Error", message: error, preferredStyle: .Alert)
-                    let okAction = UIAlertAction(title: "OK", style: .Default, handler: {(alert :UIAlertAction!) in })
+                    let okAction = UIAlertAction(title: "OK", style: .Default, handler: {(_) in })
                     
                     alertController.addAction(okAction)
-                    self.presentViewController(alertController, animated: true, completion: nil)
+                    
+                    NSOperationQueue.mainQueue().addOperationWithBlock {
+                        self.presentViewController(alertController, animated: true, completion: nil)
+                    }
                     
                 default:
                     self.catImageView.image = image
