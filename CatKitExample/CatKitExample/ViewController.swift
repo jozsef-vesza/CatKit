@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         
         super.viewDidLoad()
         
-        CatFetcherService.fetchCatsOfWidth(300, height: 200,
+        CatFetcherService.fetchCatsOfWidth(600, height: 800,
             fromSource: .PlaceKitten) { image, error in
                 
                 NSOperationQueue.mainQueue().addOperationWithBlock {
