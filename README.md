@@ -1,6 +1,6 @@
 # CatKit
 
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) ![Version status](https://img.shields.io/cocoapods/v/CatKit.svg) [![license MIT](http://img.shields.io/badge/license-MIT-orange.png)][mitLink]
+[![Build Status](https://travis-ci.org/jozsef-vesza/CatKit.svg?branch=master)](http://travis-ci.org/jozsef-vesza/CatKit)[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) ![Version status](https://img.shields.io/cocoapods/v/CatKit.svg) [![license MIT](http://img.shields.io/badge/license-MIT-orange.png)][mitLink]
 
 ![][1]
 
