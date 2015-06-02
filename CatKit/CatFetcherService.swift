@@ -21,7 +21,7 @@ public struct CatFetcherService {
     
     /**
         Fetch cat images.
-    
+        
         :param: width The desired image width.
         :param: height The desired image height.
         :param: source The source of the cat images.
@@ -36,25 +36,23 @@ public struct CatFetcherService {
             queryString = "\(width)/\(height)"
         }
         
-        if
-            let baseUrl = CatSource.urlForCatSource(source),
-            let queryUrl = NSURL(string: queryString, relativeToURL: baseUrl) {
+        if let baseUrl = CatSource.urlForCatSource(source), let queryUrl = NSURL(string: queryString, relativeToURL: baseUrl) {
+            
+            let request = NSURLRequest(URL: queryUrl)
+            
+            NSURLSession.sharedSession().dataTaskWithRequest(request) { data, response, error in
                 
-                let request = NSURLRequest(URL: queryUrl)
+                let image = UIImage(data: data)
                 
-                NSURLSession.sharedSession().dataTaskWithRequest(request) { data, response, error in
-                    
-                    let image = UIImage(data: data)
-                    
-                    switch image {
-                    case .Some(let image):
-                        complete(image: image, error: nil)
-                    case .None where error != nil:
-                        complete(image: nil, error: error.localizedDescription)
-                    default:
-                        complete(image: nil, error: "No image found!")
-                    }
-                    
+                switch image {
+                case .Some(let image):
+                    complete(image: image, error: nil)
+                case .None where error != nil:
+                    complete(image: nil, error: error.localizedDescription)
+                default:
+                    complete(image: nil, error: "No image found!")
+                }
+                
                 }.resume()
         }
     }
