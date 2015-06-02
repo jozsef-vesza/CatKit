@@ -23,7 +23,11 @@ github "jozsef-vesza/CatKit"
 
 #### CocoaPods
 
-Work in progress.
+````ruby
+use_frameworks!
+
+pod 'CatKit'
+````
 
 ### Usage
 
