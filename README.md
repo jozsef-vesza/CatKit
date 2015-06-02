@@ -1,6 +1,6 @@
 # CatKit
 
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) ![Version status](https://img.shields.io/cocoapods/v/CatKit.svg)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) ![Version status](https://img.shields.io/cocoapods/v/CatKit.svg) [![license MIT](http://img.shields.io/badge/license-MIT-orange.png)][mitLink]
 
 ![][1]
 
@@ -47,3 +47,4 @@ CatFetcherService.fetchCatsOfWidth(1000, height: 800, fromSource: .PlaceKitten) 
 [3]: http://www.reddit.com/r/aww/
 [4]: https://twitter.com/j_vesza
 [5]: https://twitter.com/tomzorz_
+[mitLink]:http://opensource.org/licenses/MIT
