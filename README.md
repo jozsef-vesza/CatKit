@@ -21,7 +21,7 @@ CatFetcherService.fetchCatsOfWidth(1000, height: 800, fromSource: .PlaceKitten) 
 
 ### Credits
 
-* Development by [József Vesza][https://twitter.com/j_vesza]
+* Development by [József Vesza][4]
 * Naming by [Tamás Deme][5]
 
 [1]: http://i.imgur.com/IP4j2Zt.png
